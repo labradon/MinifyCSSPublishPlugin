@@ -13,7 +13,7 @@ let package = Package(
     ...
     dependencies: [
         ...
-        .package(url: "https://github.com/labradon/minifycsspublishplugin", from: "0.1.0")
+        .package(name: "MinifyCSSPublishPlugin", url: "https://github.com/labradon/minifycsspublishplugin", from: "0.1.0")
     ],
     targets: [
         .target(
