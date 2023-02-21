@@ -16,7 +16,7 @@ let package = Package(
     targets: [
         .target(
             name: "MinifyCSSPublishPlugin",
-            dependencies: ["Publish"]),
+            dependencies: [.product(name: "Publish", package: "publish")]),
         .testTarget(
             name: "MinifyCSSPublishPluginTests",
             dependencies: ["MinifyCSSPublishPlugin"]),
